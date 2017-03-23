@@ -126,15 +126,19 @@ From the options menu, volume and resolution may be adjusted. Volume is adjusted
 #### Gameplay
 Upon starting the game, players will find themselves isolated in a room filled with boxes and an ominous door between two inactive lights. Gameplay is controlled with a Kinect 1.0. The player’s position remains static throughout the game; that is to say that there is no need for the player to navigate throughout the room. As a Jedi in a strange place, it is necessary to learn what abilities you are capable of performing. The following table enumerates and describes the Force Abilities available to the player, as well as how to successfully produce the gesture necessary to activate each ability.
 
+| Ability  | Description | Gesture | Notes |
+| ------------- | ------------- | ------------- | ------------- |
+| Lightsaber Control  | Content Cell | Content Cell | Content Cell |
+| Force Push  | Content Cell | Content Cell | Content Cell |
+| Force Pull  | Content Cell | Content Cell | Content Cell |
+| Force Throw  | Content Cell | Content Cell | Content Cell |
+| Force Heal  | Content Cell | Content Cell | Content Cell |
+| Force Time: Timewind  | Content Cell | Content Cell | Content Cell |
 
-
-
-
-Future Work:
-	 - In order to calibrate hueristics for players of variable size, we will add a Debug.Log to 
-		the Update() in order to note the following:
-		+ which gesture (or non-gesture) is being recognized in the current frame
-		+ location of kinect joints
-		+ ratio/distance between joints
-		+ make it CSV format
-	 - Laser reflected do destroy other drones, initial lasers do not.
+## Future Work
+In order to calibrate hueristics for players of variable size, we will add a Debug.Log to the Update() in order to note the following:
+* which gesture (or non-gesture) is being recognized in the current frame
+* location of kinect joints
+* ratio/distance between joints
+* make it CSV format
+* Laser reflected do destroy other drones, initial lasers do not.
