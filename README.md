@@ -55,6 +55,14 @@ Upon starting the game, players will find themselves isolated in a room filled w
 | Force Heal  | Use the force to restore any of your missing mana or health. This ability costs no mana and has no cooldown. | Raise your left arm straight above your head. | While actively using this ability, a particle animation will surround the user. These particles will slow down during the timewind ability and will dissipate once the gesture has been completed. |
 | Force Time: Timewind  | Use the force to undo recent movements. During this ability, the user is free to move as they choose. Other objects affected by the timewind ability will appear to move slower and will rewind to their position 4 seconds before this ability was cast. This ability costs 51 mana and has a 4 second cooldown (surprisingly enough). | With elbows above shoulders, place both hands together to initiate a time(re)wind. | ‘Forcible’ objects include boxes, the Imperial droids, and the ships outside of the Training Room. During timewind, the movement of these objects will be significantly slowed. Upon completion, these objects will revert back to their previous position. |
 
+![](images/jeditrainer1.png?raw=true)
+
+![](images/jeditrainer2.png?raw=true)
+
+![](images/jeditrainer3.png?raw=true)
+
+![](images/jeditrainer4.png?raw=true)
+
 ## Future Work
 In order to calibrate hueristics for players of variable size, we will add a Debug.Log to the Update() in order to note the following:
 * which gesture (or non-gesture) is being recognized in the current frame
