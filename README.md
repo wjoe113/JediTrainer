@@ -9,7 +9,7 @@ CAP6121 Spring 2017 Homework 1
 In this project, we created a Jedi training simulator to help young Padawan's (Padajuans) practice the ways of the force. The force involves force push, force pull, force throw, healing, and rewinding time. Using a Microsoft 360 Kinect 1.0 and the related MS_Kinect SDK v1.0 from the Unity Asset store, the player can perform their abilities using heuristics and gestures read by the Kinect. A lightsaber is a Jedi's weapon of choice. It is lightweight, versatile, and comes in many pretty colors. On the ship, the player will train against three re-modified Imperial drones; don't worry, they're mostly harmless.
 
 ## List of Scripts
-BulletBehavior.cs - Used by each blaster laser instantiated by a Training Droid. Instructs lasers to move forward at a variable speed. Upon collision with a reflective surface, lasers are reflected back at enemies. Upon collision with a destructive surface, lasers are destroyed. If the laser makes no contact with any other object, it is destroyed after a variable amount of time.
+BlasterBehavior.cs - Used by each blaster laser instantiated by a Training Droid. Instructs lasers to move forward at a variable speed. Upon collision with a reflective surface, lasers are reflected back at enemies. Upon collision with a destructive surface, lasers are destroyed. If the laser makes no contact with any other object, it is destroyed after a variable amount of time.
 
 CameraRotate.cs - Rotates the camera slowly across the stars to create a smooth main menu background.
 
